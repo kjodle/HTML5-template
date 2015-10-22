@@ -13,14 +13,18 @@ Line 7 -  A meta tag that sets the author of the document.
 Line 8 -  A meta tag that sets the description of the document. (Some search engines will use this as the description of the
           page in their search results.)
 
-Lines 10-12
-       -  Employ the HTML5 Shiv to support HTML5 sectioning elements in legacy Internet Explorer. Delete this if you do
+Line 10 - This meta tag makes the page responsive.
+
+Lines 12-14 -
+          Employ the HTML5 Shiv to support HTML5 sectioning elements in legacy Internet Explorer. Delete this if you do
           not need to support older versions of IE.
 
-Line 14 - Link to a screen style sheet. Change the URI to reflect your site structure.
-Line 15 - Link to a print style sheet. Change the URI to reflect your site structure.
+Line 16 - Link to a screen style sheet. Change the URI to reflect your site structure.
+Line 17 - Link to a print style sheet. Change the URI to reflect your site structure.
+Line 18 - Link to a mobile style sheet. Change the URI to reflect your site structure, and add a separate mobile style
+          sheet for each breakpoint.
 
-Line 17 - Load jQuery. Delete if you are not using jQuery.
+Line 20 - Load jQuery. Delete if you are not using jQuery.
 
-Line 23 - Load any scripts that can be loaded after the page loads, rather than before, to speed page rendering. Change the URI
-          to reflect your site structure.
+Line 26 - Load any scripts that can be loaded after the page loads, rather than before, to speed page rendering. Change
+          the URI to reflect your site structure.
